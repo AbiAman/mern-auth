@@ -5,6 +5,7 @@ import Profile from "./pages/Profile";
 import Signin from "./pages/Signin";
 import SignUp from "./pages/SignUp";
 import Header from "./componentes/Header";
+import Footer from "./componentes/Footer";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route path="/sign-in" element={<Signin />} />
         <Route path="/sign-up" element={<SignUp />} />
       </Routes>
+      <Footer />
     </BrowserRouter>
   );
 }
